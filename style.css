@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,900&family=Poppins&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    line-height: 1.4;
+     
+     font-family: 'Nunito Sans', sans-serif;
+     font-family: 'Poppins', sans-serif;
+     font-family: 'Roboto', sans-serif;
+    }
+.img_container{
+    background-image: url(image.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.text_container{
+    color:darkred;
+    max-width:900px;
+    margin:0 auto;
+    padding-top: 60px;
+    padding-left:15px;
+    font-size:14px ;
+   
+}
+.hi_text{
+    font-size: 40px;
+    font-weight: 400px;
+}
+.black_box{
+    background-color: black; 
+    
+    padding: 20px;
+}
+.black_box h2{
+    font-size: 96px;
+    font-weight: 400;   
+}
